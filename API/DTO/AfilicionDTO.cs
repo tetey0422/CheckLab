@@ -2,23 +2,12 @@ namespace API.DTO
 {
     public class AfiliacionDTO
     {
-        [Key]
         public int AfiliacionID { get; set; }
-
-        [Required]
-        [MaxLength(10)]
         public string TipoDocumento { get; set; }
-
-        [Required]
-        [MaxLength(20)]
         public string Documento { get; set; }
-
-        [ForeignKey("EPS")]
         public int EPSID { get; set; }
-        public EPS EPS { get; set; }
-
-        [Required]
-        [MaxLength(20)]
         public string Estado { get; set; }
+        // Si necesitas mostrar el nombre de la EPS, puedes agregar:
+        // public string EPSNombre { get; set; }
     }
 }
