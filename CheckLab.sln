@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C83F804D-33B3-4653-B02D-61F94AE424DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1B7CAE56-1821-4143-88E7-015ED2A19376}"
+	ProjectSection(SolutionItems) = preProject
+		..\CheckLab1\DATA\Afilicion.cs = ..\CheckLab1\DATA\Afilicion.cs
+		..\CheckLab1\DATA\CheckLab.cs = ..\CheckLab1\DATA\CheckLab.cs
+		..\CheckLab1\DATA\Cita.cs = ..\CheckLab1\DATA\Cita.cs
+		..\CheckLab1\DATA\Enfermero.cs = ..\CheckLab1\DATA\Enfermero.cs
+		..\CheckLab1\DATA\EPS.cs = ..\CheckLab1\DATA\EPS.cs
+		..\CheckLab1\DATA\EstadoCita.cs = ..\CheckLab1\DATA\EstadoCita.cs
+		..\CheckLab1\DATA\Examen.cs = ..\CheckLab1\DATA\Examen.cs
+		..\CheckLab1\DATA\HistorialCita.cs = ..\CheckLab1\DATA\HistorialCita.cs
+		..\CheckLab1\DATA\LogSistema.cs = ..\CheckLab1\DATA\LogSistema.cs
+		..\CheckLab1\DATA\Notificacion.cs = ..\CheckLab1\DATA\Notificacion.cs
+		..\CheckLab1\DATA\Paciente.cs = ..\CheckLab1\DATA\Paciente.cs
+		..\CheckLab1\DATA\Reprogramacion.cs = ..\CheckLab1\DATA\Reprogramacion.cs
+		..\CheckLab1\DATA\Resultado.cs = ..\CheckLab1\DATA\Resultado.cs
+		..\CheckLab1\DATA\Rol.cs = ..\CheckLab1\DATA\Rol.cs
+		..\CheckLab1\DATA\Usuario.cs = ..\CheckLab1\DATA\Usuario.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{2CDC1EB3-085B-4E8D-B638-2607FA7819C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{C902F1D3-2AEA-4B2E-A650-FA8EF1023070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{359700A0-A0F2-4B36-A304-E629CC381FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CDC1EB3-085B-4E8D-B638-2607FA7819C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDC1EB3-085B-4E8D-B638-2607FA7819C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDC1EB3-085B-4E8D-B638-2607FA7819C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDC1EB3-085B-4E8D-B638-2607FA7819C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C902F1D3-2AEA-4B2E-A650-FA8EF1023070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C902F1D3-2AEA-4B2E-A650-FA8EF1023070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C902F1D3-2AEA-4B2E-A650-FA8EF1023070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C902F1D3-2AEA-4B2E-A650-FA8EF1023070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359700A0-A0F2-4B36-A304-E629CC381FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359700A0-A0F2-4B36-A304-E629CC381FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359700A0-A0F2-4B36-A304-E629CC381FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359700A0-A0F2-4B36-A304-E629CC381FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CDC1EB3-085B-4E8D-B638-2607FA7819C4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C902F1D3-2AEA-4B2E-A650-FA8EF1023070} = {1B7CAE56-1821-4143-88E7-015ED2A19376}
+		{359700A0-A0F2-4B36-A304-E629CC381FCE} = {C83F804D-33B3-4653-B02D-61F94AE424DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1060FE85-04F7-4044-8B4C-BC09BB454A98}
+	EndGlobalSection
+EndGlobal
