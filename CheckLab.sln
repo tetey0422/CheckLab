@@ -10,8 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1B7CAE56-1821-4143-88E7-015ED2A19376}"
 	ProjectSection(SolutionItems) = preProject
 		..\CheckLab1\DATA\Afilicion.cs = ..\CheckLab1\DATA\Afilicion.cs
-		..\CheckLab1\DATA\CheckLab.cs = ..\CheckLab1\DATA\CheckLab.cs
 		..\CheckLab1\DATA\Cita.cs = ..\CheckLab1\DATA\Cita.cs
+		..\CheckLab1\DATA\CheckLabContext.cs = ..\CheckLab1\DATA\CheckLabContext.cs
 		..\CheckLab1\DATA\Enfermero.cs = ..\CheckLab1\DATA\Enfermero.cs
 		..\CheckLab1\DATA\EPS.cs = ..\CheckLab1\DATA\EPS.cs
 		..\CheckLab1\DATA\EstadoCita.cs = ..\CheckLab1\DATA\EstadoCita.cs
